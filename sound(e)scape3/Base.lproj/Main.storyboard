@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Helvetica.ttc">
+            <string>Helvetica</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="sound_e_scape3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QhZ-By-Aal">
+                                <rect key="frame" x="490" y="718" width="44" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="SFT-k5-2OB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vro-lr-FhH">
+                                <rect key="frame" x="617" y="718" width="44" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="uhx-yh-ual"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iPB-kB-P4Q">
+                                <rect key="frame" x="363" y="718" width="44" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="8R7-At-AYU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wGE-Jc-zwK">
+                                <rect key="frame" x="236" y="718" width="44" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="05k-Kn-cGK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NxG-Sd-0ML">
+                                <rect key="frame" x="744" y="718" width="44" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Rdz-hY-82K"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vro-lr-FhH" secondAttribute="bottom" constant="20" id="3PR-R4-UhJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iPB-kB-P4Q" secondAttribute="trailing" constant="617" id="7X5-yg-wMd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QhZ-By-Aal" secondAttribute="bottom" constant="20" id="7te-5I-XjY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NxG-Sd-0ML" secondAttribute="trailing" constant="236" id="GVP-gR-unQ"/>
+                            <constraint firstItem="NxG-Sd-0ML" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="744" id="Kqv-VF-Tnn"/>
+                            <constraint firstItem="vro-lr-FhH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="617" id="RGB-6d-ju9"/>
+                            <constraint firstItem="iPB-kB-P4Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="363" id="RS1-XL-eam"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wGE-Jc-zwK" secondAttribute="trailing" constant="744" id="dER-xY-Zv7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vro-lr-FhH" secondAttribute="trailing" constant="363" id="gQb-R4-6qv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wGE-Jc-zwK" secondAttribute="bottom" constant="20" id="ja0-UQ-yRg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iPB-kB-P4Q" secondAttribute="bottom" constant="20" id="nWs-5z-pJ4"/>
+                            <constraint firstItem="QhZ-By-Aal" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="reG-3N-QAm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="NxG-Sd-0ML" secondAttribute="bottom" constant="20" id="wDw-YX-Y8G"/>
+                            <constraint firstItem="wGE-Jc-zwK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="236" id="zmb-p5-khM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="ArchiveBtn" destination="iPB-kB-P4Q" id="Yb1-wy-AjM"/>
+                        <outlet property="HomeBtn" destination="wGE-Jc-zwK" id="4VY-11-fZk"/>
+                        <outlet property="IndexBtn" destination="NxG-Sd-0ML" id="H2V-lp-ax8"/>
+                        <outlet property="NotationBtn" destination="QhZ-By-Aal" id="9gf-DB-sCM"/>
+                        <outlet property="ScoreBtn" destination="vro-lr-FhH" id="Xdr-Sq-0wM"/>
+                        <segue destination="puT-Oi-ue5" kind="push" identifier="ArchiveSegeu" id="Yef-Ut-RKI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="25.78125" y="33.59375"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cgZ-Ac-heH">
+            <objects>
+                <viewController id="puT-Oi-ue5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Og-at-cha">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="vLA-R5-j2o"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="oqf-ba-abd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dmf-e0-RDu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1007" y="-233"/>
+        </scene>
+    </scenes>
+</document>
