@@ -10,6 +10,12 @@ import UIKit
 
 class NotationViewController: UIViewController {
 
+    @IBOutlet weak var HomeBtn: UIButton!
+    @IBOutlet weak var ArchiveBtn: UIButton!
+    @IBOutlet weak var NotationBtn: UIButton!
+    @IBOutlet weak var ScoreBtn: UIButton!
+    @IBOutlet weak var IndexBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

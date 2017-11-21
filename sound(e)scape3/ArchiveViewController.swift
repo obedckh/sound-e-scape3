@@ -7,9 +7,17 @@
 //
 
 import UIKit
+import AVFoundation
+
 
 class ArchiveViewController: UIViewController {
 
+    @IBOutlet weak var HomeBtn: UIButton!
+    @IBOutlet weak var ArchiveBtn: UIButton!
+    @IBOutlet weak var NotationBtn: UIButton!
+    @IBOutlet weak var ScoreBtn: UIButton!
+    @IBOutlet weak var IndexBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -19,6 +27,11 @@ class ArchiveViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+   
+    
+        
+        
+    
     }
     
 
