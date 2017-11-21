@@ -15,7 +15,10 @@
 		FDA034E51FC3468E0041C93B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA034E31FC3468E0041C93B /* LaunchScreen.storyboard */; };
 		FDA034F01FC3468E0041C93B /* sound_e_scape3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA034EF1FC3468E0041C93B /* sound_e_scape3Tests.swift */; };
 		FDA034FB1FC3468E0041C93B /* sound_e_scape3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA034FA1FC3468E0041C93B /* sound_e_scape3UITests.swift */; };
-		FDA035091FC3D6150041C93B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA035081FC3D6150041C93B /* SecondViewController.swift */; };
+		FDA0350B1FC3E4CF0041C93B /* ArchiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0350A1FC3E4CF0041C93B /* ArchiveViewController.swift */; };
+		FDA0350D1FC3E4FB0041C93B /* NotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0350C1FC3E4FB0041C93B /* NotationViewController.swift */; };
+		FDA0350F1FC3E50E0041C93B /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0350E1FC3E50E0041C93B /* ScoreViewController.swift */; };
+		FDA035111FC3E5240041C93B /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA035101FC3E5240041C93B /* IndexViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +53,10 @@
 		FDA034F61FC3468E0041C93B /* sound(e)scape3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sound(e)scape3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA034FA1FC3468E0041C93B /* sound_e_scape3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sound_e_scape3UITests.swift; sourceTree = "<group>"; };
 		FDA034FC1FC3468E0041C93B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FDA035081FC3D6150041C93B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FDA0350A1FC3E4CF0041C93B /* ArchiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveViewController.swift; sourceTree = "<group>"; };
+		FDA0350C1FC3E4FB0041C93B /* NotationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotationViewController.swift; sourceTree = "<group>"; };
+		FDA0350E1FC3E50E0041C93B /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		FDA035101FC3E5240041C93B /* IndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +109,10 @@
 			children = (
 				FDA034D71FC3468E0041C93B /* AppDelegate.swift */,
 				FDA034D91FC3468E0041C93B /* ViewController.swift */,
-				FDA035081FC3D6150041C93B /* SecondViewController.swift */,
+				FDA0350A1FC3E4CF0041C93B /* ArchiveViewController.swift */,
+				FDA0350C1FC3E4FB0041C93B /* NotationViewController.swift */,
+				FDA0350E1FC3E50E0041C93B /* ScoreViewController.swift */,
+				FDA035101FC3E5240041C93B /* IndexViewController.swift */,
 				FDA034DB1FC3468E0041C93B /* Main.storyboard */,
 				FDA034E11FC3468E0041C93B /* Assets.xcassets */,
 				FDA034E31FC3468E0041C93B /* LaunchScreen.storyboard */,
@@ -265,10 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDA035091FC3D6150041C93B /* SecondViewController.swift in Sources */,
 				FDA034DA1FC3468E0041C93B /* ViewController.swift in Sources */,
+				FDA0350D1FC3E4FB0041C93B /* NotationViewController.swift in Sources */,
 				FDA034E01FC3468E0041C93B /* sound_e_scape3.xcdatamodeld in Sources */,
+				FDA0350B1FC3E4CF0041C93B /* ArchiveViewController.swift in Sources */,
 				FDA034D81FC3468E0041C93B /* AppDelegate.swift in Sources */,
+				FDA035111FC3E5240041C93B /* IndexViewController.swift in Sources */,
+				FDA0350F1FC3E50E0041C93B /* ScoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

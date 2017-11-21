@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  IndexViewController.swift
 //  sound(e)scape3
 //
 //  Created by Obed Cheung on 21/11/2017.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class IndexViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

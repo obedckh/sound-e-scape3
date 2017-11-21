@@ -89,28 +89,71 @@
                         <outlet property="IndexBtn" destination="NxG-Sd-0ML" id="H2V-lp-ax8"/>
                         <outlet property="NotationBtn" destination="QhZ-By-Aal" id="9gf-DB-sCM"/>
                         <outlet property="ScoreBtn" destination="vro-lr-FhH" id="Xdr-Sq-0wM"/>
-                        <segue destination="puT-Oi-ue5" kind="push" identifier="ArchiveSegeu" id="Yef-Ut-RKI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="25.78125" y="33.59375"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="cgZ-Ac-heH">
+        <!--Archive View Controller-->
+        <scene sceneID="Wc4-kN-iBY">
             <objects>
-                <viewController id="puT-Oi-ue5" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="9Og-at-cha">
+                <viewController id="adt-Rc-XxZ" customClass="ArchiveViewController" customModule="sound_e_scape3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6ad-K5-evQ">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <viewLayoutGuide key="safeArea" id="vLA-R5-j2o"/>
+                        <viewLayoutGuide key="safeArea" id="uUf-5J-Mmv"/>
                     </view>
-                    <navigationItem key="navigationItem" id="oqf-ba-abd"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dmf-e0-RDu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IHG-CV-Brb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1007" y="-233"/>
+            <point key="canvasLocation" x="748" y="-350"/>
+        </scene>
+        <!--Notation View Controller-->
+        <scene sceneID="W9h-Gf-AW7">
+            <objects>
+                <viewController id="vSQ-bM-pV4" customClass="NotationViewController" customModule="sound_e_scape3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3EC-uJ-hRd">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="qs0-26-QNH"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S2b-44-Bn5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="756" y="449"/>
+        </scene>
+        <!--Score View Controller-->
+        <scene sceneID="m5D-A7-Ha9">
+            <objects>
+                <viewController id="pFb-Eh-QpV" customClass="ScoreViewController" customModule="sound_e_scape3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="68d-bV-e2k">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="gkj-cn-FQd"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dgx-T9-U7a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="763" y="1185"/>
+        </scene>
+        <!--Index View Controller-->
+        <scene sceneID="lqf-4j-wVP">
+            <objects>
+                <viewController id="6PP-yA-eSv" customClass="IndexViewController" customModule="sound_e_scape3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0XY-6u-Kgs">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="tMh-rZ-bxE"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RQr-HA-gnV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="763" y="1934"/>
         </scene>
     </scenes>
 </document>
